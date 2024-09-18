@@ -12,7 +12,7 @@ export default function GlobalState({ children }) {
   const [selectedWeather, setSelectedWeather] = useState(null); // Holds Selected Weather data
 
   const baseUrl = "https://api.openweathermap.org/data/2.5"; // BaseUrl for fetching weather forecast
-  const api_key = "15f2b28fef6fc15d9e50547d599f7ae4"; // gets openWeatherMap API from environment variable
+  const api_key = ""; // gets openWeatherMap API from environment variable
 
   // Fetches weather forecast data from openWeatherMap
   async function fetchWeather(search, searchType) {
